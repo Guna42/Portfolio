@@ -90,8 +90,8 @@ All images and assets are included in the `public/assets/` directory.
 ## 📬 Contact
 
 - **Email:** guna.yourmail@gmail.com
-- **LinkedIn:** [linkedin.com/in/your-linkedin](https://www.linkedin.com/in/your-linkedin)
-- **Instagram:** [instagram.com/your-instagram](https://www.instagram.com/your-instagram)
+- **LinkedIn:** [linkedin.com/in/your-linkedin](https://www.linkedin.com/in/guna-byraju)
+- **Instagram:** [instagram.com/your-instagram](https://www.instagram.com/gunavardhan.__/)
 
 ---
 
