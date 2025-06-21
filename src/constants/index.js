@@ -1,278 +1,183 @@
 export const myProjects = [
   {
-    id: 1,
-    title: "E-commerce Platform",
+    id: 1001,
+    title: "Her Haven - Women's Health and Safety Platform",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "Developed a comprehensive platform featuring AI avatar, health tracking, secure chat, steganography for secret messages, and therapy support.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "AI avatar, health tracking, secure chat, steganography for secret messages, therapy support."
     ],
-    href: "",
+    href: "https://github.com/Guna42/HER-HAVEN",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/auth-system.jpg", // Placeholder image
     tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "React", path: "/assets/logos/react.svg" },
+      { id: 2, name: "Node.js", path: "/assets/logos/nodejs.svg" },
+      { id: 3, name: "Flask", path: "/assets/logos/flask.svg" },
+      { id: 4, name: "Socket.IO", path: "/assets/logos/socketio.svg" },
+      { id: 5, name: "Docker", path: "/assets/logos/docker.svg" },
+      { id: 6, name: "Pandas", path: "/assets/logos/pandas.svg" },
+      { id: 7, name: "Matplotlib", path: "/assets/logos/matplotlib.svg" },
     ],
   },
   {
-    id: 2,
-    title: "Authentication & Authorization System",
+    id: 1002,
+    title: "Online Payment Fraud Detection",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "Developed a machine learning pipeline to detect fraudulent transactions. Created an interactive Streamlit-based interface for seamless user interaction.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Machine learning pipeline for fraud detection.",
+      "Streamlit-based user interface."
     ],
-    href: "",
+    href: "https://github.com/Guna42/Online-Payment-Fraud-Detection",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/fraud-detect.png",
     tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "TensorFlow", path: "/assets/logos/tensorFlow.svg" },
+      { id: 2, name: "Scikit-learn", path: "/assets/logos/scikit-learn.svg" },
+      { id: 3, name: "Streamlit", path: "/assets/logos/streamlit.svg" },
     ],
   },
   {
-    id: 3,
-    title: "Blazor Web App",
+    id: 1003,
+    title: "Attendance Automation with Face Recognition",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "Built a web-based system for faculty to log in, take attendance using face recognition, and send absentee emails with a click. Integrated secure email authentication and real-time attendance tracking.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Web-based attendance with face recognition.",
+      "Secure email authentication and real-time tracking."
     ],
-    href: "",
+    href: "https://github.com/Guna42/Attendance_Automation_FaceRecognition",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/attendance.jpg",
     tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "Python", path: "/assets/logos/python.svg" },
+      { id: 2, name: "Flask", path: "/assets/logos/flask.svg" },
+      { id: 3, name: "face_recognition", path: "/assets/logos/face.svg" },
+      { id: 4, name: "HTML", path: "/assets/logos/html5.svg" },
+      { id: 5, name: "CSS", path: "/assets/logos/css3.svg" },
+      { id: 6, name: "JavaScript", path: "/assets/logos/javascript.svg" },
     ],
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "FarmEasy - Smart Agriculture Solution",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "A smart agriculture platform with AI-powered crop disease detection, plant and crop identification, and personalized recommendations. Includes a modern web UI and secure user management for efficient farm operations.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "AI crop disease detection, plant identification, crop suitability analysis, secure login, and a responsive web interface."
     ],
-    href: "",
+    href: "https://github.com/Guna42/Farmeasy",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/farmeasy.jpg", // Make sure to add this image to your assets
     tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
+      { id: 1, name: "Python", path: "/assets/logos/python.svg" },
+      { id: 2, name: "Flask", path: "/assets/logos/flask.svg" },
+      { id: 3, name: "TensorFlow", path: "/assets/logos/tensorFlow.svg" },
+      { id: 4, name: "Keras", path: "/assets/logos/Keras.svg" },
+      { id: 5, name: "OpenCV", path: "/assets/logos/OpenCV.svg" },
+      { id: 6, name: "NumPy", path: "/assets/logos/NumPy.svg" },
+      { id: 7, name: "Kibana", path: "/assets/logos/Kibana.svg" },
+      { id: 8, name: "HTML", path: "/assets/logos/html5.svg" },
+      { id: 9, name: "CSS", path: "/assets/logos/css3.svg" },
+      { id: 10, name: "JavaScript", path: "/assets/logos/javascript.svg" },
     ],
   },
   {
     id: 5,
-    title: "WordPress Custom Theme",
+    title: "Personal Portfolio",
     description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
+      "A modern, interactive portfolio website to showcase my projects, skills, and experience. Built with React, Vite, Tailwind CSS, and Three.js for a beautiful and responsive user experience.",
     subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
+      "3D visuals, animated UI, project gallery, contact form, and responsive design."
     ],
-    href: "",
+    href: "", // Add your GitHub link here if available
     logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "/assets/projects/portfolio.jpg", // Place your screenshot here
     tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
+      { id: 1, name: "React", path: "/assets/logos/react.svg" },
+      { id: 2, name: "Vite", path: "/assets/logos/vitejs.svg" },
+      { id: 3, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
+      { id: 4, name: "Three.js", path: "/assets/logos/threejs.svg" },
+      { id: 5, name: "JavaScript", path: "/assets/logos/javascript.svg" },
+      { id: 6, name: "HTML", path: "/assets/logos/html5.svg" },
+      { id: 7, name: "CSS", path: "/assets/logos/css3.svg" },
     ],
   },
   {
     id: 6,
-    title: "Online Learning Platform",
+    title: "Spotify Clone",
     description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+      "A web-based music player inspired by Spotify. Browse, play, and manage songs by moods and artists with a modern, responsive UI. Built using pure HTML, CSS, and JavaScript.",
     subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
+      "Modern UI, mood & artist playlists, audio player controls, dynamic playlist loading, custom cover art, and SVG icons."
     ],
-    href: "",
+    href: "https://github.com/Guna42/spotify_clone",
     logo: "",
-    image: "/assets/projects/elearning.jpg",
+    image: "/assets/projects/spotify-clone.jpg", // Place your screenshot here
     tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "HTML", path: "/assets/logos/html5.svg" },
+      { id: 2, name: "CSS", path: "/assets/logos/css3.svg" },
+      { id: 3, name: "JavaScript", path: "/assets/logos/javascript.svg" },
     ],
   },
 ];
 
 export const mySocials = [
   {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
+    name: "Phone",
+    href: "tel:+917207682246",
+    icon: "/assets/socials/whatsApp.svg", // You can use a phone or WhatsApp icon
   },
   {
-    name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    name: "LinkedIn",
+    href: "http://www.linkedin.com/in/guna-byraju",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "https://www.instagram.com/gunavardhan.__/",
     icon: "/assets/socials/instagram.svg",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Bachelor of Technology (B.Tech.) in Computer Science and Engineering",
+    job: "SRM Institute of Science and Technology, Amaravati, India",
+    date: "2023 – 2027",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Pursuing B.Tech. in Computer Science and Engineering at SRM University, Amaravati.",
+      "Core coursework: Data Structures & Algorithms, Operating Systems, Database Management Systems, Computer Networks, Artificial Intelligence, and Machine Learning.",
+      "Actively involved in coding competitions, hackathons, and technical clubs to enhance practical and teamwork skills.",
+      "Developed strong foundations in programming (C, C++, Python, Java, JavaScript) and problem-solving."
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Research Intern (Fog Computing & IoT)",
+    job: "SRM Institute of Science and Technology, Amaravati, India",
+    date: "2024 – Present",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Currently researching fog computing in IoT to reduce limitations of moving IoT devices.",
+      "Exploring ML techniques, specifically Meta Deep Reinforcement Learning (Meta-DRL), to enhance adaptability and efficiency."
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "Intern (Machine Learning)",
+    job: "Infosys Springboard",
+    date: "August 2024 – December 2024",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Designed and implemented a machine learning model for fraud detection in online payments.",
+      "Built a user-friendly interface with Streamlit for seamless interaction with the model."
+    ],
+  },
+  {
+    title: "Intern (Machine Learning)",
+    job: "Prodigy Infotech",
+    date: "June 2024 – July 2024",
+    contents: [
+      "Contributed to the development of machine learning solutions for real-world problems.",
+      "Focused on data preprocessing, feature engineering, and training ML models."
     ],
   },
 ];

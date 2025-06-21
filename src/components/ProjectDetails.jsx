@@ -26,23 +26,39 @@ const ProjectDetails = ({
           <h5 className="mb-2 text-2xl font-bold text-white">{title}</h5>
           <p className="mb-3 font-normal text-neutral-400">{description}</p>
           {subDescription.map((subDesc, index) => (
-            <p className="mb-3 font-normal text-neutral-400">{subDesc}</p>
+            <p key={index} className="mb-3 font-normal text-neutral-400">{subDesc}</p>
           ))}
           <div className="flex items-center justify-between mt-4">
             <div className="flex gap-3">
               {tags.map((tag) => (
-                <img
-                  key={tag.id}
-                  src={tag.path}
-                  alt={tag.name}
-                  className="rounded-lg size-10 hover-animation"
-                />
+                tag.path ? (
+                  <img
+                    key={tag.id}
+                    src={tag.path}
+                    alt={tag.name}
+                    className="rounded-lg size-10 hover-animation"
+                  />
+                ) : (
+                  <span
+                    key={tag.id}
+                    className="px-2 py-1 text-sm font-semibold text-white bg-navy rounded hover:bg-midnight"
+                  >
+                    {tag.name}
+                  </span>
+                )
               ))}
             </div>
-            <a className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation">
-              View Project{" "}
-              <img src="assets/arrow-up.svg" className="size-4" href={href} />
-            </a>
+            {href ? (
+              <a
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation"
+              >
+                View Project{" "}
+                <img src="assets/arrow-up.svg" className="size-4" />
+              </a>
+            ) : null}
           </div>
         </div>
       </motion.div>
